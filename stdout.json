@@ -1,0 +1,459 @@
+{
+	"Name": "payment",
+	"SpanContext": {
+		"TraceID": "587152c8c1539c60a19a7bbaab87484d",
+		"SpanID": "4b5d74a60ff328e6",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "587152c8c1539c60a19a7bbaab87484d",
+		"SpanID": "fd4746179848c15f",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 1,
+	"StartTime": "2024-02-11T10:05:52.666078-05:00",
+	"EndTime": "2024-02-11T10:05:52.669586182-05:00",
+	"Attributes": null,
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "demo-app"
+			}
+		},
+		{
+			"Key": "service.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "0.1.0"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.23.1"
+			}
+		}
+	],
+	"InstrumentationLibrary": {
+		"Name": "catalogue",
+		"Version": "",
+		"SchemaURL": ""
+	}
+}
+{
+	"Name": "order",
+	"SpanContext": {
+		"TraceID": "587152c8c1539c60a19a7bbaab87484d",
+		"SpanID": "fd4746179848c15f",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "587152c8c1539c60a19a7bbaab87484d",
+		"SpanID": "08a1344edc93fc21",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 1,
+	"StartTime": "2024-02-11T10:05:51.665755-05:00",
+	"EndTime": "2024-02-11T10:05:52.669601415-05:00",
+	"Attributes": null,
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 1,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "demo-app"
+			}
+		},
+		{
+			"Key": "service.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "0.1.0"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.23.1"
+			}
+		}
+	],
+	"InstrumentationLibrary": {
+		"Name": "catalogue",
+		"Version": "",
+		"SchemaURL": ""
+	}
+}
+{
+	"Name": "cart",
+	"SpanContext": {
+		"TraceID": "587152c8c1539c60a19a7bbaab87484d",
+		"SpanID": "08a1344edc93fc21",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "587152c8c1539c60a19a7bbaab87484d",
+		"SpanID": "dac61b7d9fd1bd7f",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 1,
+	"StartTime": "2024-02-11T10:05:49.665621-05:00",
+	"EndTime": "2024-02-11T10:05:52.669592215-05:00",
+	"Attributes": null,
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 1,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "demo-app"
+			}
+		},
+		{
+			"Key": "service.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "0.1.0"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.23.1"
+			}
+		}
+	],
+	"InstrumentationLibrary": {
+		"Name": "catalogue",
+		"Version": "",
+		"SchemaURL": ""
+	}
+}
+{
+	"Name": "catalogue",
+	"SpanContext": {
+		"TraceID": "587152c8c1539c60a19a7bbaab87484d",
+		"SpanID": "dac61b7d9fd1bd7f",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "587152c8c1539c60a19a7bbaab87484d",
+		"SpanID": "b25773429586009e",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 1,
+	"StartTime": "2024-02-11T10:05:49.665591-05:00",
+	"EndTime": "2024-02-11T10:05:53.670194457-05:00",
+	"Attributes": [
+		{
+			"Key": "RequestCnt.value",
+			"Value": {
+				"Type": "INT64",
+				"Value": 1
+			}
+		}
+	],
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 1,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "demo-app"
+			}
+		},
+		{
+			"Key": "service.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "0.1.0"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.23.1"
+			}
+		}
+	],
+	"InstrumentationLibrary": {
+		"Name": "catalogue",
+		"Version": "",
+		"SchemaURL": ""
+	}
+}
+{
+	"Name": "/",
+	"SpanContext": {
+		"TraceID": "587152c8c1539c60a19a7bbaab87484d",
+		"SpanID": "b25773429586009e",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 2,
+	"StartTime": "2024-02-11T10:05:49.6655-05:00",
+	"EndTime": "2024-02-11T10:05:53.670331925-05:00",
+	"Attributes": [
+		{
+			"Key": "http.method",
+			"Value": {
+				"Type": "STRING",
+				"Value": "GET"
+			}
+		},
+		{
+			"Key": "http.scheme",
+			"Value": {
+				"Type": "STRING",
+				"Value": "http"
+			}
+		},
+		{
+			"Key": "net.host.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "localhost"
+			}
+		},
+		{
+			"Key": "net.host.port",
+			"Value": {
+				"Type": "INT64",
+				"Value": 8080
+			}
+		},
+		{
+			"Key": "net.sock.peer.addr",
+			"Value": {
+				"Type": "STRING",
+				"Value": "::1"
+			}
+		},
+		{
+			"Key": "net.sock.peer.port",
+			"Value": {
+				"Type": "INT64",
+				"Value": 57495
+			}
+		},
+		{
+			"Key": "user_agent.original",
+			"Value": {
+				"Type": "STRING",
+				"Value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3 Safari/605.1.15"
+			}
+		},
+		{
+			"Key": "http.target",
+			"Value": {
+				"Type": "STRING",
+				"Value": "/catalogue"
+			}
+		},
+		{
+			"Key": "net.protocol.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.1"
+			}
+		},
+		{
+			"Key": "http.route",
+			"Value": {
+				"Type": "STRING",
+				"Value": "/catalogue"
+			}
+		},
+		{
+			"Key": "http.wrote_bytes",
+			"Value": {
+				"Type": "INT64",
+				"Value": 2
+			}
+		},
+		{
+			"Key": "http.status_code",
+			"Value": {
+				"Type": "INT64",
+				"Value": 200
+			}
+		}
+	],
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 1,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "demo-app"
+			}
+		},
+		{
+			"Key": "service.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "0.1.0"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.23.1"
+			}
+		}
+	],
+	"InstrumentationLibrary": {
+		"Name": "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
+		"Version": "0.48.0",
+		"SchemaURL": ""
+	}
+}
+{"Resource":[{"Key":"service.name","Value":{"Type":"STRING","Value":"demo-app"}},{"Key":"service.version","Value":{"Type":"STRING","Value":"0.1.0"}},{"Key":"telemetry.sdk.language","Value":{"Type":"STRING","Value":"go"}},{"Key":"telemetry.sdk.name","Value":{"Type":"STRING","Value":"opentelemetry"}},{"Key":"telemetry.sdk.version","Value":{"Type":"STRING","Value":"1.23.1"}}],"ScopeMetrics":[{"Scope":{"Name":"catalogue","Version":"","SchemaURL":""},"Metrics":[{"Name":"request_count","Description":"The number of times api is called","Unit":"{count}","Data":{"DataPoints":[{"Attributes":[{"Key":"RequestCnt.value","Value":{"Type":"INT64","Value":1}}],"StartTime":"2024-02-11T10:05:41.696014-05:00","Time":"2024-02-11T10:06:38.122999-05:00","Value":1}],"Temporality":"CumulativeTemporality","IsMonotonic":true}}]},{"Scope":{"Name":"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp","Version":"0.48.0","SchemaURL":""},"Metrics":[{"Name":"http.server.request.size","Description":"Measures the size of HTTP request messages.","Unit":"By","Data":{"DataPoints":[{"Attributes":[{"Key":"http.method","Value":{"Type":"STRING","Value":"GET"}},{"Key":"http.route","Value":{"Type":"STRING","Value":"/catalogue"}},{"Key":"http.scheme","Value":{"Type":"STRING","Value":"http"}},{"Key":"http.status_code","Value":{"Type":"INT64","Value":200}},{"Key":"net.host.name","Value":{"Type":"STRING","Value":"localhost"}},{"Key":"net.host.port","Value":{"Type":"INT64","Value":8080}},{"Key":"net.protocol.name","Value":{"Type":"STRING","Value":"http"}},{"Key":"net.protocol.version","Value":{"Type":"STRING","Value":"1.1"}}],"StartTime":"2024-02-11T10:05:41.696025-05:00","Time":"2024-02-11T10:06:38.123011-05:00","Value":0}],"Temporality":"CumulativeTemporality","IsMonotonic":true}},{"Name":"http.server.response.size","Description":"Measures the size of HTTP response messages.","Unit":"By","Data":{"DataPoints":[{"Attributes":[{"Key":"http.method","Value":{"Type":"STRING","Value":"GET"}},{"Key":"http.route","Value":{"Type":"STRING","Value":"/catalogue"}},{"Key":"http.scheme","Value":{"Type":"STRING","Value":"http"}},{"Key":"http.status_code","Value":{"Type":"INT64","Value":200}},{"Key":"net.host.name","Value":{"Type":"STRING","Value":"localhost"}},{"Key":"net.host.port","Value":{"Type":"INT64","Value":8080}},{"Key":"net.protocol.name","Value":{"Type":"STRING","Value":"http"}},{"Key":"net.protocol.version","Value":{"Type":"STRING","Value":"1.1"}}],"StartTime":"2024-02-11T10:05:41.696026-05:00","Time":"2024-02-11T10:06:38.123012-05:00","Value":2}],"Temporality":"CumulativeTemporality","IsMonotonic":true}},{"Name":"http.server.duration","Description":"Measures the duration of inbound HTTP requests.","Unit":"ms","Data":{"DataPoints":[{"Attributes":[{"Key":"http.method","Value":{"Type":"STRING","Value":"GET"}},{"Key":"http.route","Value":{"Type":"STRING","Value":"/catalogue"}},{"Key":"http.scheme","Value":{"Type":"STRING","Value":"http"}},{"Key":"http.status_code","Value":{"Type":"INT64","Value":200}},{"Key":"net.host.name","Value":{"Type":"STRING","Value":"localhost"}},{"Key":"net.host.port","Value":{"Type":"INT64","Value":8080}},{"Key":"net.protocol.name","Value":{"Type":"STRING","Value":"http"}},{"Key":"net.protocol.version","Value":{"Type":"STRING","Value":"1.1"}}],"StartTime":"2024-02-11T10:05:41.696033-05:00","Time":"2024-02-11T10:06:38.123013-05:00","Count":1,"Bounds":[0,5,10,25,50,75,100,250,500,750,1000,2500,5000,7500,10000],"BucketCounts":[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0],"Min":4004.850534,"Max":4004.850534,"Sum":4004.850534}],"Temporality":"CumulativeTemporality"}}]}]}
